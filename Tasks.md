@@ -1,3 +1,6 @@
+---
+obsidianUIMode: preview
+---
 # In Progress
 ```dataviewjs
 const {createButton} = app.plugins.plugins["buttons"]
@@ -7,7 +10,7 @@ const changeStatus = async (file, value) => {
     await update("status", value, file)
 }
 
-dv.table(["Task", "Complexity", "","",""], dv.pages('"✅ Tasks"')
+dv.table(["Task", "Comp", "","",""], dv.pages('"✅ Tasks"')
 	.filter(t => t.status === "In Progress")
 	.filter(t => t.category !== "Inbox")
 	.map(t => [

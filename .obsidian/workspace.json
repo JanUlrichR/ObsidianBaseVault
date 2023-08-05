@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e0bd66d5456d85e6",
+        "id": "9f2842f2efe6e169",
         "type": "tabs",
         "children": [
           {
-            "id": "90aadd958cba85fc",
+            "id": "e965a9fd4ea02f4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Tasks.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[data.test]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,31 +69,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 383.5
   },
   "right": {
     "id": "dae3d91943717631",
     "type": "split",
     "children": [
       {
-        "id": "756e4b13047747d6",
-        "type": "tabs",
-        "dimension": 25.928571428571427,
-        "children": [
-          {
-            "id": "0d02618128f68719",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "2c7ae6e2e4c36ed3",
         "type": "tabs",
-        "dimension": 74.07142857142858,
         "children": [
           {
             "id": "5e946a0085d643de",
@@ -112,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,20 +125,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Tasks.md"
               }
+            }
+          },
+          {
+            "id": "07e9972955d3cedf",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -162,37 +153,38 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b72217e1898a366e",
+  "active": "e965a9fd4ea02f4a",
   "lastOpenFiles": [
-    "Tasks.md",
-    "README.md",
-    "💡 Ideas/End of Life Confluence App.md",
-    "💡 Ideas/End Of Life Confluence App.md",
-    "✅ Tasks/Obsidian Vault Structure-Ideas Implementation.md",
-    "templates/Project Template.md",
-    "🛠️ Projects/asdfdas.md",
-    "🛠️ Projects/DASasdd.md",
-    "templates/Idea Template.md",
-    "🛠️ Projects/Slack.md",
-    "templates/Task Template.md",
-    "templates/Task Template 1.md",
-    "🛠️ Projects/null.md",
-    "🛠️ Projects/TEst.md",
-    "🛠️ Projects/LRAM2.md",
-    "templates/Daily Template Startup.md",
-    "🛠️ Projects/LRAM.md",
-    "✅ Tasks/LRAM-Dunno.md",
     "Dashboard.md",
+    "📆 Dailys/2023-08-05.md",
+    "📅 Weeklys/2023-KW31.md",
+    "Tasks.md",
     "Homepage.md",
-    "📅 Weeklys/2023-KW32.md",
+    "2023-08-05.md",
+    "function(.md",
+    "📅 Weeklys/YYYY-[K31]ww.md",
+    "templates/Buttons.md",
+    "✅ Tasks/A-V 2.md",
+    "README.md",
+    "✅ Tasks/A-V 2 1 1 1.md",
+    "✅ Tasks/A-V 2 1 1.md",
+    "✅ Tasks/A-V 2 1.md",
+    "✅ Tasks/A-V 1.md",
+    "✅ Tasks/A-V.md",
+    "✅ Tasks/null-null.md",
+    "templates/Project Template.md",
     "templates/Daily Template.md",
     "templates/Weekly Template.md",
-    "📆 Dailys/2023-08-09.md",
-    "📆 Dailys/2023-08-08.md",
-    "📆 Dailys/2023-08-07.md",
+    "templates/Task Template.md",
+    "templates/Idea Template.md",
+    "✅ Tasks/Test-TEs.md",
+    "🖌️ Drawings/test",
+    "💡 Ideas/End of Life Confluence App.md",
+    "💡 Ideas/End Of Life Confluence App.md",
     "dailys",
     "🛠️ Projects",
     "💡 Ideas",
@@ -203,7 +195,6 @@
     "templates",
     "Untitled 1.canvas",
     "🖌️ Drawings",
-    "📆 Dailys",
     "Untitled.canvas"
   ]
 }

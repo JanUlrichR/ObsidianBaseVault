@@ -1,14 +1,14 @@
 [
   "obsidian-excalidraw-plugin",
   "dataview",
-  "obsidian-kanban",
   "calendar",
   "obsidian-tasks-plugin",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-linter",
   "homepage",
   "templater-obsidian",
-  "obsidian-week-planner",
   "buttons",
-  "metaedit"
+  "metaedit",
+  "obsidian-charts",
+  "obsidian-view-mode-by-frontmatter"
 ]

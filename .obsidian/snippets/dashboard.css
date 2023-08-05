@@ -1,0 +1,91 @@
+.dashboard {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 20px !important;
+}
+
+.dashboard .markdown-preview-section {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    display: grid;
+    grid-template-areas: "title title title"
+    "goto-header links-header create-header"
+    "goto-content links-content task-button"
+    "goto-content links-content idea-button"
+    "goto-content links-content project-button"
+    "recent-header distribution-header current-header"
+    "recent-content distribution-content current-content";
+
+    grid-template-columns:  minmax(20px, auto);
+    grid-template-rows:  minmax(20px, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.dashboard h2 {
+    margin: 0 !important;
+}
+
+.dashboard h2 > div {
+    display: none;
+}
+
+/* Remove title  */
+.mod-header {
+    display: none;
+}
+
+
+div:has(> h2[data-heading="Go to"]) {
+    grid-area: goto-header;
+}
+div:has(> h2[data-heading="Go to"])+div {
+    grid-area: goto-content;
+}
+
+div:has(> h2[data-heading="Links"]) {
+    grid-area: links-header;
+}
+div:has(> h2[data-heading="Links"]) + div {
+    grid-area: links-content;
+}
+
+div:has(> h2[data-heading="Create"]) {
+    grid-area: create-header;
+}
+div:has(> h2[data-heading="Create"])+ div {
+    grid-area: task-button;
+}
+div:has(> h2[data-heading="Create"]) + div + div {
+    grid-area: idea-button;
+}
+div:has(> h2[data-heading="Create"]) + div + div + div{
+    grid-area: project-button;
+}
+
+div:has(> h2[data-heading="Recent Updates"]) {
+    grid-area:  recent-header;
+}
+div:has(> h2[data-heading="Recent Updates"]) + div {
+    grid-area:  recent-content;
+}
+
+div:has(> h2[data-heading="Task Distribution"]) {
+    grid-area:  distribution-header;
+}
+div:has(> h2[data-heading="Task Distribution"]) + div{
+    grid-area:  distribution-content;
+}
+
+div:has(> h2[data-heading="Current Tasks"]) {
+    grid-area: current-header;
+}
+div:has(> h2[data-heading="Current Tasks"]) + div{
+    grid-area: current-content;
+}
+
+.dashboard div:has(>canvas){
+    width: 500px ;
+    height: 500px ;
+}
