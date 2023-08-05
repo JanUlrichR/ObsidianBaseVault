@@ -1,0 +1,7 @@
+-   What did I get done this week versus what I planned to get done?
+-   What unexpectedly arose this week that blocked my productivity?
+-   What worked well?
+-   Where did I get stuck?
+-   What did I learn?
+-   Am I showing up for the key people in my life (spouse, kids, boss, direct reports)?
+-   When did I feel most energized?

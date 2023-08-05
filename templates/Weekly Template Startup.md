@@ -1,0 +1,3 @@
+- [ ] Transpose Meetings & Appointments
+- [ ] Set Goals
+- [ ] Move Items from backlog into todo that will help accomplish goals
