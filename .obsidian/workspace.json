@@ -4,22 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "6750f61b8b638c95",
+        "id": "324b1e264516977a",
         "type": "tabs",
         "children": [
           {
-            "id": "0a5c89944f1fbf45",
+            "id": "c94b350255b906eb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6b9b3d7a3551d019",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
-                "mode": "preview",
+                "file": "✅ Tasks/A-V 1.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -31,7 +40,7 @@
       {
         "id": "561367e667b655bd",
         "type": "tabs",
-        "dimension": 74.37956204379562,
+        "dimension": 74.01459854014598,
         "children": [
           {
             "id": "b72217e1898a366e",
@@ -69,9 +78,9 @@
         ]
       },
       {
-        "id": "dff0734b0b718714",
+        "id": "28ba16ecf6ebf2f4",
         "type": "tabs",
-        "dimension": 25.620437956204377,
+        "dimension": 25.985401459854014,
         "children": [
           {
             "id": "7078688219b8838c",
@@ -112,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboard.md",
+                "file": "✅ Tasks/A-V 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dashboard.md",
+                "file": "✅ Tasks/A-V 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboard.md"
+                "file": "✅ Tasks/A-V 1.md"
               }
             }
           },
@@ -164,19 +173,33 @@
     "hiddenItems": {
       "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "graph:Open graph view": false,
       "templater-obsidian:Templater": true,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0a5c89944f1fbf45",
+  "active": "6b9b3d7a3551d019",
   "lastOpenFiles": [
-    "README.md",
     "Dashboard.md",
+    "📆 Dailys/2023-08-26.md",
+    "📆 Dailys/2023-08-25.md",
+    "📅 Weeklys/2023-KW34.md",
+    "📆 Dailys/2023-08-24.md",
+    "📆 Dailys/2023-08-23.md",
+    "📆 Dailys/2023-08-22.md",
+    "📆 Dailys/2023-08-21.md",
+    "📅 Weeklys/2023-KW33.md",
+    "📆 Dailys/2023-08-15.md",
+    "📆 Dailys/2023-08-14.md",
+    "📆 Dailys/2023-08-18.md",
+    "📆 Dailys/2023-08-17.md",
+    "📆 Dailys/2023-08-16.md",
+    "README.md",
     "✅ Tasks/null-null.md",
     "✅ Tasks/A-V 2 1 1.md",
     "✅ Tasks/A-V 2 1 1 1.md",
@@ -189,19 +212,7 @@
     "📅 Weeklys/2023-KW31.md",
     "2023-08-05.md",
     "function(.md",
-    "📅 Weeklys/YYYY-[K31]ww.md",
-    "templates/Buttons.md",
-    "✅ Tasks/A-V 2.md",
-    "✅ Tasks/A-V 2 1.md",
-    "✅ Tasks/A-V.md",
-    "templates/Project Template.md",
-    "templates/Daily Template.md",
-    "templates/Weekly Template.md",
-    "templates/Task Template.md",
-    "templates/Idea Template.md",
     "🖌️ Drawings/test",
-    "💡 Ideas/End of Life Confluence App.md",
-    "💡 Ideas/End Of Life Confluence App.md",
     "dailys",
     "🛠️ Projects",
     "💡 Ideas",
