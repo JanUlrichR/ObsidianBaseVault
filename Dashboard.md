@@ -72,10 +72,9 @@ const label2color = {
 	Maybe: "hsla(269, 100%, 50%, 0.5)",
 	Reference: "hsla(226, 100%, 50%, 0.5)",
 }
-console.log(label2color)
-console.log(labels)
+
 const colors = labels.map((it, index) => label2color[it] || selectColor(index))
-console.log(colors)
+
 const statusFilledValues = [...statusValues, ...new Array(categoryLabels.length).fill(0)]
 const categoryFilledValues = [...new Array(statusLabels.length).fill(0), ...categoryValues]
 
