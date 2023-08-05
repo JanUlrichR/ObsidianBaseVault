@@ -54,9 +54,9 @@ const taskCategory = tasks
 const taskStatusLengths = groupBy(taskStatus)
 const taskCategoryLengths = groupBy(taskCategory)
 
-const statusLabels = [...taskStatusLengths.keys()];
+const statusLabels = [...taskStatusLengths.keys()].sort();
 const statusValues = statusLabels.map(label => taskStatusLengths.get(label)).map(it => it.length)
-const categoryLabels = [...taskCategoryLengths.keys()];
+const categoryLabels = [...taskCategoryLengths.keys()].sort();
 const categoryValues = categoryLabels.map(label => taskCategoryLengths.get(label)).map(it => it.length);
 
 const labels = [...statusLabels, ...categoryLabels]

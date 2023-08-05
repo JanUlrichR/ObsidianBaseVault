@@ -5,18 +5,54 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"🛠️ Projects\"",
+      "color": {
+        "a": 1,
+        "rgb": 8462584
+      }
+    },
+    {
+      "query": "path:\"✅ Tasks\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431420
+      }
+    },
+    {
+      "query": "path:\"📆 Dailys\"",
+      "color": {
+        "a": 1,
+        "rgb": 5402336
+      }
+    },
+    {
+      "query": "path:\"📅 Weeklys\"",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:\"💡 Ideas\"",
+      "color": {
+        "a": 1,
+        "rgb": 14147666
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.26119791666667,
+  "lineSizeMultiplier": 1.69505208333333,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
-  "close": false
+  "scale": 0.25883865621816293,
+  "close": true
 }

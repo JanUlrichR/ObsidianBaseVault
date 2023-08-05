@@ -1,5 +1,10 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "attachments",
-  "alwaysUpdateLinks": true
+  "attachmentFolderPath": "📎 Attachments",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "other",
+  "userIgnoreFilters": [
+    "templates/"
+  ]
 }
