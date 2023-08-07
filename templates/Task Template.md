@@ -1,11 +1,12 @@
 <%-*
 	const project = await tp.system.prompt("Project", "");
 	const summary = await tp.system.prompt("Summary", "");
-	const taskKey = project + "-" + summary
+	const taskKey = project + "-" + summary;
+	const origin = await tp.system.prompt("Origin", "");
 %>
 ---
 name:  <% taskKey %>
-origin: <% tp.system.prompt("Origin", "") %>
+origin: 
 category: Inbox
 status: Open
 project: <% project %>
@@ -23,6 +24,7 @@ inprogressDate:
 doneDate:
 ---
 <% tp.file.move("✅ Tasks/" + taskKey ) %>
+# [Origin](<% origin %>) 
 # Project task - <% summary %>
 
 Task information here..
