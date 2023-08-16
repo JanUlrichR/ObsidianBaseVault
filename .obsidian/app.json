@@ -6,5 +6,6 @@
   "newFileFolderPath": "other",
   "userIgnoreFilters": [
     "templates/"
-  ]
+  ],
+  "readableLineLength": false
 }
