@@ -37,7 +37,7 @@ dv.table(["Task", "Complexity", "","",""], dv.pages('"✅ Tasks"')
 	.map(t => [
 		t.file.link,
 		t['complexity'],
-		createButton({app, el: this.container, args: {name: "Continue"}, clickOverride: {click: file => changeStatus(file,"Open"), params: [t.file.path, 'date']}}),
+		createButton({app, el: this.container, args: {name: "Continue"}, clickOverride: {click: file => changeStatus(file,"In Progress"), params: [t.file.path, 'date']}}),
 		"",""
 		])
 )
