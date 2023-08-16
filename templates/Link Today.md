@@ -1,0 +1,1 @@
+`="[[ 📆 Dailys/" + dateformat(date(today), "yyyy-MM-dd") + " |" + dateformat(date(today), "yyyy-MM-dd") + "]]"`

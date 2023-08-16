@@ -1,3 +1,23 @@
 {
-  "file-explorer:new-file": []
+  "file-explorer:new-file": [],
+  "templater-obsidian:templates/Today.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "F12"
+    }
+  ],
+  "templater-obsidian:templates/Link Today.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "F12"
+    }
+  ]
 }
