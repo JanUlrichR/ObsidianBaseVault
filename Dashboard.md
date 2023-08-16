@@ -49,6 +49,7 @@ const taskStatus = tasks
 	.filter(t => t.category !== "Inbox")
 	.map(t => t.status).values
 const taskCategory = tasks
+	.filter(t => t.status !== "Closed")
 	.map(t => t.category).values
 
 const taskStatusLengths = groupBy(taskStatus)
