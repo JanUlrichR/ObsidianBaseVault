@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c94b350255b906eb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "6b9b3d7a3551d019",
             "type": "leaf",
             "state": {
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +92,47 @@
     "type": "split",
     "children": [
       {
-        "id": "2c7ae6e2e4c36ed3",
+        "id": "0f0ab31e45018945",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07e9972955d3cedf",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "bbfafd5cd7265550",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9be1f66f1f0f34e9",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Dashboard.md"
+              }
+            }
+          },
+          {
+            "id": "b9ddd84950582991",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1c3b08b11d6c7ac9",
         "type": "tabs",
         "children": [
           {
@@ -153,17 +184,9 @@
                 "file": "Dashboard.md"
               }
             }
-          },
-          {
-            "id": "07e9972955d3cedf",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
