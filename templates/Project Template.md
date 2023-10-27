@@ -1,10 +1,17 @@
-<%-*
-	const project = await tp.system.prompt("Project name", "");
-%>
----
-name:  <% project %>
----
-<% tp.file.move("🛠️ Projects/" + project ) %>
+<%* 
+const project = await tp.system.prompt("Project name", "");
+
+const filename = "🛠️ Projects/" + project;
+
+setTimeout(() => {
+  app.fileManager.processFrontMatter(tp.config.target_file, frontmatter => {
+  frontmatter["name"] = project;
+  })
+}, 200)
+setTimeout(() => {
+  tp.file.move(filename);
+}, 400)
+-%>
 # Project - <% project %>
 
 <% tp.file.cursor(0) %>

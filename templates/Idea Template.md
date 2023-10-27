@@ -1,15 +1,22 @@
-<%-*
-	const idea = await tp.system.prompt("Idea Summary", "");
-%>
----
-name:  <% idea %>
-origin: <% tp.system.prompt("Inspiration", "None") %>
----
-<% tp.file.move("💡 Ideas/" + idea ) %>
+<%* 
+const idea = await tp.system.prompt("Idea Summary", "");
+const inspiration = await tp.system.prompt("Inspiration", "None");
+
+const filename = "💡 Ideas/" + idea;
+
+setTimeout(() => {
+  app.fileManager.processFrontMatter(tp.config.target_file, frontmatter => {
+  frontmatter["name"] = idea;
+  frontmatter["origin"] = inspiration;
+  })
+}, 200)
+setTimeout(() => {
+  tp.file.move(filename );
+}, 400)
+-%>
 # Idea - <% idea %>
 
 <% tp.file.cursor(1) %>
-
 
 # Tasks
 ## Todo
