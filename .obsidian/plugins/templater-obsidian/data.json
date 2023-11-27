@@ -28,7 +28,8 @@
     "templates/Task Template.md",
     "templates/Idea Template.md",
     "templates/Project Template.md",
-    "templates/Link Today.md"
+    "templates/Link Today.md",
+    "templates/Learning Template.md"
   ],
   "startup_templates": [
     ""

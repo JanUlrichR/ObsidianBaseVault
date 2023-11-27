@@ -14,6 +14,7 @@
     "goto-content links-content task-button"
     "goto-content links-content idea-button"
     "goto-content links-content project-button"
+    "goto-content links-content learning-button"
     "recent-header distribution-header current-header"
     "recent-content distribution-content current-content";
 
@@ -62,6 +63,9 @@ div:has(> h2[data-heading="Create"]) + div + div {
 }
 div:has(> h2[data-heading="Create"]) + div + div + div{
     grid-area: project-button;
+}
+div:has(> h2[data-heading="Create"]) + div + div + div + div{
+    grid-area: learning-button;
 }
 
 div:has(> h2[data-heading="Recent Updates"]) {

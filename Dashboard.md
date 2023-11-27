@@ -30,7 +30,11 @@ name 🛠️ Project
 type note(function(){return this.inputEl.value}) template
 action Project Template
 ```
-
+```button
+name 🧠 Learning
+type note(function(){return this.inputEl.value}) template
+action Learning Template
+```
 ## Recent Updates
  `$=await dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").limit(8).file.link)`
 
