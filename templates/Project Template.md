@@ -1,7 +1,7 @@
 <%* 
 const project = await tp.system.prompt("Project name", "");
 
-const filename = "🛠️ Projects/" + project;
+const filename = "🛠️ Projects/" + project.replace(/[^a-z0-9]/gi, '-').toLowerCase();
 
 setTimeout(() => {
   app.fileManager.processFrontMatter(tp.config.target_file, frontmatter => {

@@ -2,7 +2,7 @@
 const learning = await tp.system.prompt("Learning Topic", "");
 const reason = await tp.system.prompt("Reason", "None");
 
-const filename = "🧠 Learning/" + learning;
+const filename = "🧠 Learning/" + learning.replace(/[^a-z0-9]/gi, '-').toLowerCase();
 
 setTimeout(() => {
   app.fileManager.processFrontMatter(tp.config.target_file, frontmatter => {

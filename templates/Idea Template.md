@@ -2,7 +2,7 @@
 const idea = await tp.system.prompt("Idea Summary", "");
 const inspiration = await tp.system.prompt("Inspiration", "None");
 
-const filename = "💡 Ideas/" + idea;
+const filename = "💡 Ideas/" + idea.replace(/[^a-z0-9]/gi, '-').toLowerCase();
 
 setTimeout(() => {
   app.fileManager.processFrontMatter(tp.config.target_file, frontmatter => {
