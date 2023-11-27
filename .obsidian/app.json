@@ -7,5 +7,6 @@
   "userIgnoreFilters": [
     "templates/"
   ],
-  "readableLineLength": false
+  "readableLineLength": false,
+  "propertiesInDocument": "hidden"
 }
