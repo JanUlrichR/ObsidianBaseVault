@@ -10,15 +10,13 @@ const changeStatus = async (file, value) => {
     await update("status", value, file)
 }
 
-dv.table(["Task", "Comp", "","",""], dv.pages('"✅ Tasks"')
+dv.table(["Task", "Complexity", "Category"], dv.pages('"✅ Tasks"')
 	.filter(t => t.status === "In Progress")
 	.filter(t => t.category !== "Inbox")
 	.map(t => [
 		t.file.link,
 		t['complexity'],
-		createButton({app, el: this.container, args: {name: "Delegate"}, clickOverride: {click: file => changeStatus(file,"Delegated"), params: [t.file.path, 'date']}}),
-		createButton({app, el: this.container, args: {name: "Blocked"}, clickOverride: {click: file => changeStatus(file,"Blocked"), params: [t.file.path, 'date']}}),
-		createButton({app, el: this.container, args: {name: "Close"}, clickOverride: {click: file => changeStatus(file,"Closed"), params: [t.file.path, 'date']}}),
+		t['category'],
 		])
 )
 ```
@@ -31,14 +29,13 @@ const changeStatus = async (file, value) => {
     await update("status", value, file)
 }
 
-dv.table(["Task", "Complexity", "","",""], dv.pages('"✅ Tasks"')
+dv.table(["Task", "Complexity", "Category"], dv.pages('"✅ Tasks"')
 	.filter(t => t.status === "Blocked")
 	.filter(t => t.category !== "Inbox")
 	.map(t => [
 		t.file.link,
 		t['complexity'],
-		createButton({app, el: this.container, args: {name: "Continue"}, clickOverride: {click: file => changeStatus(file,"In Progress"), params: [t.file.path, 'date']}}),
-		"",""
+		t['category'],
 		])
 )
 ```
@@ -51,14 +48,13 @@ const changeStatus = async (file, value) => {
     await update("status", value, file)
 }
 
-dv.table(["Task", "Complexity", "",""], dv.pages('"✅ Tasks"')
+dv.table(["Task", "Complexity", "Category"], dv.pages('"✅ Tasks"')
 	.filter(t => t.status === "Delegated")
 	.filter(t => t.category !== "Inbox")
 	.map(t => [
 		t.file.link,
 		t['complexity'],
-		createButton({app, el: this.container, args: {name: "Retake"}, clickOverride: {click: file => changeStatus(file,"Open"), params: [t.file.path, 'date']}}),
-		createButton({app, el: this.container, args: {name: "Close"}, clickOverride: {click: file => changeStatus(file,"Closed"), params: [t.file.path, 'date']}}),
+		t['category'],
 		])
 )
 ```
@@ -71,13 +67,13 @@ const changeStatus = async (file, value) => {
     await update("status", value, file)
 }
 
-dv.table(["Task", "Complexity", "",""], dv.pages('"✅ Tasks"')
+dv.table(["Task", "Complexity", "Category"], dv.pages('"✅ Tasks"')
 	.filter(t => t.status === "Open")
 	.filter(t => t.category !== "Inbox")
 	.map(t => [
 		t.file.link,
 		t['complexity'],
-		createButton({app, el: this.container, args: {name: "Start Progress"}, clickOverride: {click: file => changeStatus(file,"In Progress"), params: [t.file.path, 'date']}}),
+		t['category'],
 		])
 )
 ```
@@ -90,13 +86,13 @@ const changeStatus = async (file, value) => {
     await update("status", value, file)
 }
 
-dv.table(["Task", "Complexity", "",""], dv.pages('"✅ Tasks"')
+dv.table(["Task", "Complexity", "Category"], dv.pages('"✅ Tasks"')
 	.filter(t => t.status === "Closed")
 	.filter(t => t.category !== "Inbox")
 	.map(t => [
 		t.file.link,
 		t['complexity'],
-		createButton({app, el: this.container, args: {name: "Reopen"}, clickOverride: {click: file => changeStatus(file,"Open"), params: [t.file.path, 'date']}}),
+		t['category'],
 		])
 )
 ```
