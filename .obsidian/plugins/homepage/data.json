@@ -15,7 +15,9 @@
       "autoCreate": true,
       "autoScroll": false,
       "pin": false,
-      "commands": [],
+      "commands": [
+        "workspace:close-others"
+      ],
       "alwaysApply": false
     }
   },
