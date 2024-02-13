@@ -1,15 +1,15 @@
 <%* 
-const project = await tp.system.prompt("Project", "");
+const projectsPath = "🛠️ Projects"
+const project = (await tp.system.suggester((item) => item.basename, this.app.vault.getMarkdownFiles().filter(file => file.path.substr(0, file.path.lastIndexOf("/")) == projectsPath))).basename;
 const summary = await tp.system.prompt("Summary", "");
-const taskKey = project + "-" + summary;
 const origin = await tp.system.prompt("Origin", "");
 const priority =  tp.system.suggester(["🟩","🟨","🟥"], ["🟩","🟨","🟥"])
 
-const filename = "✅ Tasks/" + taskKey.replace(/[^a-z0-9]/gi, '-').toLowerCase()
+const filename = "✅ Tasks/" +project.replace(/[^a-z0-9]/gi, '-')+"/"+ summary.replace(/[^a-z0-9]/gi, '-').toLowerCase()
 
 setTimeout(() => {
   app.fileManager.processFrontMatter(tp.config.target_file, frontmatter => {
-  frontmatter["name"] = taskKey;
+  frontmatter["name"] = summary;
   frontmatter["origin"] = origin;
   frontmatter["category"] = "Inbox";
   frontmatter["status"] = "Open";
