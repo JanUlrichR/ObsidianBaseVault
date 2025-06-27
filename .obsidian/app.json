@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "📎 Attachments",
+  "attachmentFolderPath": "Attachments",
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "other",
