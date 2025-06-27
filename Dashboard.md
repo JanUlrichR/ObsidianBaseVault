@@ -1,5 +1,7 @@
 ---
 cssclass: dashboard
+date_created: Friday, June 27th 2025, 1:53:39 pm
+date_modified: Friday, June 27th 2025, 2:18:10 pm
 obsidianUIMode: preview
 ---
 ## Go to
@@ -19,6 +21,11 @@ obsidianUIMode: preview
 name ✅ Tasks
 type note(function(){return this.inputEl.value}) template
 action Task Template
+```
+```button
+name 📝Note
+type note(function(){return this.inputEl.value}) template
+action Note Template
 ```
 ```button
 name 💡 Idea

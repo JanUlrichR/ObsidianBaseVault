@@ -12,6 +12,7 @@
     grid-template-areas: "title title title"
     "goto-header links-header create-header"
     "goto-content links-content task-button"
+    "goto-content links-content note-button"
     "goto-content links-content idea-button"
     "goto-content links-content project-button"
     "goto-content links-content learning-button"
@@ -59,15 +60,18 @@ div:has(> h2[data-heading="Create"])+ div {
     grid-area: task-button;
 }
 div:has(> h2[data-heading="Create"]) + div + div {
-    grid-area: idea-button;
+    grid-area: note-button;
 }
 div:has(> h2[data-heading="Create"]) + div + div + div{
-    grid-area: project-button;
+    grid-area: idea-button;
 }
 div:has(> h2[data-heading="Create"]) + div + div + div + div{
-    grid-area: learning-button;
+    grid-area: project-button;
 }
 
+div:has(> h2[data-heading="Create"]) + div + div + div + div + div{
+    grid-area: learning-button;
+}
 div:has(> h2[data-heading="Recent Updates"]) {
     grid-area:  recent-header;
 }
